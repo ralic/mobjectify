@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.googlecode.objectify</groupId>
+  <artifactId>objectify-reactor</artifactId>
+  <version>1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Objectify Parent</name>
+  <url>http://code.google.com/p/objectify-appengine/</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  <modules>
+    <module>mobjectify</module>
+    <module>mobjectify-gwt-adapter</module>
+    <module>appengine-gwt-adapter</module>
+    <module>appengine-gwt-custom-field-serializer</module>
+  </modules>
+</project>

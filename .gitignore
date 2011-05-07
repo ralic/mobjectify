@@ -1,6 +1,4 @@
 target/
 test-output/
 WEB-INF/
-.sass-cache/
 .settings
-.svn
